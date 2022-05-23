@@ -1,4 +1,4 @@
-//Let's impliment a function that can compare two arrays for a perfect match.
+
 
 const assertEqual = function(actual, expected) {
   let count = 0;
