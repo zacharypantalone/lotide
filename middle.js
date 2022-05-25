@@ -1,4 +1,4 @@
-const eqArrays = function (arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false;
   }
@@ -14,7 +14,7 @@ const eqArrays = function (arr1, arr2) {
 
 //treat if like a filter, check for what you DON'T want
 
-const assertArraysEqual = function (arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
   const result = eqArrays(arr1, arr2);
   if (!result) {
     console.log(`🛑Assertion Failed🛑: [${arr1}] !== [${arr2}]`);
@@ -24,7 +24,7 @@ const assertArraysEqual = function (arr1, arr2) {
   console.log(`✅Assertion Passed✅: [${arr1}] === [${arr2}]`);
 };
 
-const middle = function (arr) {
+const middle = function(arr) {
   let result = [];
 
   if (arr.length < 3) {
