@@ -46,4 +46,4 @@ const middle = function(arr) {
 
 
 
-module.exports = {middle, assertArraysEqual};
+module.exports = middle;
