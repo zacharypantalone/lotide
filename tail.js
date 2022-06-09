@@ -26,8 +26,13 @@ const tail = function(listOfItems) {
   return tail;
   
 };
-const result = tail(["Hello", "Lighthouse", "Labs"]);
-console.log(assertEqualArray(result, ["Lighthouse", "Labs"]));
+
+
+
+module.exports = {tail, assertEqualArray};
+
+
+
 
 
 // Create a function tail which returns
