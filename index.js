@@ -13,7 +13,19 @@ const map = require('./map');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
 
-module.exports = {
+const utilFunctions = { head, tail, middle, countLetters, countOnly, eqArrays, eqObjects, findKey, findKeyByValue,
+  flatten, letterPositions, map, takeUntil, without };
+
+console.log(utilFunctions);
+
+module.exports = {utilFunctions};
+
+  
+
+
+
+
+/*module.exports = {
 
   head: head,
   tail: tail,
@@ -30,7 +42,7 @@ module.exports = {
   takeUntil: takeUntil,
   without: without,
 
-};
+}; */
 
 
 
