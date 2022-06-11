@@ -34,9 +34,10 @@ const letterPositions = function(sentence) {
       }
     }
   }
+  
   for (let i = 0; i < sentence.length; i++) {
     
-    if (results.hasOwnProperty(sentence[i])) {
+    if (results[sentence[i]]) {
       results[sentence[i]].push(i);
     }
   }
