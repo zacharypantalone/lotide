@@ -1,7 +1,7 @@
 const tail = function(listOfItems) {
-  
   const lengthOfListOfItems = listOfItems.length;
   const tail = listOfItems.slice(1, lengthOfListOfItems);
+  
   console.log(tail);
   return tail;
   
